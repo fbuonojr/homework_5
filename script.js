@@ -17,7 +17,6 @@ var changeColor = function(){
 
             }
         }
-        
         timeIndex++;
         console.log(timeIndex);
     }
