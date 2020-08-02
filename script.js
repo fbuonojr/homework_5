@@ -23,48 +23,50 @@ var changeColor = function(){
 }
 console.log($("#time-5").attr("class"));
 
-//save button to save text to local storage
-$(".save-button-9").on("click", function(){
-    var nineEvent = document.getElementById("input-9").value;
-    localStorage.setItem("Nine Event", nineEvent);
-});
+$(document).ready(function(){
+    //save button to save text to local storage
+    $(".save-button-9").on("click", function(){
+        var nineEvent = document.getElementById("input-9").value;
+        localStorage.setItem("Nine Event", nineEvent);
+    });
 
-$(".save-button-10").on("click", function(){
-    var tenEvent = document.getElementById("input-10").value;
-    localStorage.setItem("Ten Event", tenEvent);
-});
+    $(".save-button-10").on("click", function(){
+        var tenEvent = document.getElementById("input-10").value;
+        localStorage.setItem("Ten Event", tenEvent);
+    });
 
-$(".save-button-11").on("click", function(){
-    var elevenEvent = document.getElementById("input-11").value;
-    localStorage.setItem("Eleven Event", elevenEvent);
-});
+    $(".save-button-11").on("click", function(){
+        var elevenEvent = document.getElementById("input-11").value;
+        localStorage.setItem("Eleven Event", elevenEvent);
+    });
 
-$(".save-button-12").on("click", function(){
-    var twelveEvent = document.getElementById("input-12").value;
-    localStorage.setItem("Twelve Event", twelveEvent);
-});
+    $(".save-button-12").on("click", function(){
+        var twelveEvent = document.getElementById("input-12").value;
+        localStorage.setItem("Twelve Event", twelveEvent);
+    });
 
-$(".save-button-1").on("click", function(){
-    var oneEvent = document.getElementById("input-1").value;
-    localStorage.setItem("One Event", oneEvent);
-});
+    $(".save-button-1").on("click", function(){
+        var oneEvent = document.getElementById("input-1").value;
+        localStorage.setItem("One Event", oneEvent);
+    });
 
-$(".save-button-2").on("click", function(){
-    var twoEvent = document.getElementById("input-2").value;
-    localStorage.setItem("Two Event", twoEvent);
-});
+    $(".save-button-2").on("click", function(){
+        var twoEvent = document.getElementById("input-2").value;
+        localStorage.setItem("Two Event", twoEvent);
+    });
 
-$(".save-button-3").on("click", function(){
-    var threeEvent = document.getElementById("input-3").value;
-    localStorage.setItem("Three Event", threeEvent);
-});
+    $(".save-button-3").on("click", function(){
+        var threeEvent = document.getElementById("input-3").value;
+        localStorage.setItem("Three Event", threeEvent);
+    });
 
-$(".save-button-4").on("click", function(){
-    var fourEvent = document.getElementById("input-4").value;
-    localStorage.setItem("Four Event", fourEvent);
-});
+    $(".save-button-4").on("click", function(){
+        var fourEvent = document.getElementById("input-4").value;
+        localStorage.setItem("Four Event", fourEvent);
+    });
 
-$(".save-button-5").on("click", function(){
-    var fiveEvent = document.getElementById("input-5").value;
-    localStorage.setItem("Five Event", fiveEvent);
+    $(".save-button-5").on("click", function(){
+        var fiveEvent = document.getElementById("input-5").value;
+        localStorage.setItem("Five Event", fiveEvent);
+    });
 });
