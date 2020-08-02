@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+<!-- # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -43,4 +43,13 @@ You are required to submit the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. -->
+
+# Frank Buono Assignment 5: Daily Planner
+
+## Technologies used: HTML5, CSS, JavaScript, jQuery
+
+This assignment has timeblocks for hours in the standard business day and allows the user to input what needs to be completed during those hours and save them when the page refreshes.
+
+* link to deployed application: https://fbuonojr.github.io/homework_5/  
+* link to GitHub repository: https://github.com/fbuonojr/homework_5
