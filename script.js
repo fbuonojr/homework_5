@@ -75,12 +75,25 @@
 
 // second attempt at javascript from after TA Manoli's review session
 $(document).ready(function(){
+    //display time on top of page
     var todaysDate = moment().format("MMMM Do YYYY");
     $("#currentDay").text(todaysDate);
 
+    //save button event to save input
     $("saveBtn").on("click", function(){
         var value = $(this).siblings(".textSiblings").val();
         var time = $(this).parent().attr("id");
         localStorage.setItem(time, value);
     });
+
+    $("#time-9 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-10.textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-11 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-12 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-1 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-2 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-3 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-4 .textSiblings").val(localStorage.getItem("time-9"));
+    $("#time-5 .textSiblings").val(localStorage.getItem("time-9"));
+
 });
