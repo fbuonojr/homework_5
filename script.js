@@ -113,7 +113,7 @@ $(document).ready(function(){
                 $(".hour").removeClass("past");
                 $(".hour").attr("class", "present");
             }
-            else{
+            else if(time > currentTime){
                 $(this).removeClass("past", "present");
                 $(this).attr("class", "future");
                 $(".hour").removeClass("past", "present");
