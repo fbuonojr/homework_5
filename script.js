@@ -115,8 +115,8 @@ $(document).ready(function(){
             }
             else{
                 $(this).removeClass("past", "present");
-                $(".hour").removeClass("past", "present");
                 $(this).attr("class", "future");
+                $(".hour").removeClass("past", "present");
                 $(".hour").attr("class", "future");
             }
         });
