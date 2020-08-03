@@ -28,9 +28,11 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    
+    <!-- <div class="container"> -->
       <!-- Timeblocks go here -->
-      <table class="table timeblocks">
+      <!-- my attempt at creating the planner using tables -->
+      <!-- <table class="table timeblocks">
         <tr class="AM" id="time-9" value=9>
           <th>9 AM:</th>
           <td colspan="0" rowspan="1" class="eventRows">
@@ -148,6 +150,120 @@
           </td>
         </tr>
       </table>
+    </div> -->
+
+    <!-- second attempt at creating planner after TA Manoli's review session -->
+    <div class="container">
+      <div class="row timeblock" id="time-9">
+        <div class="col-md-1 hour">
+          9AM:
+        </div>
+        <textarea class="col-md-10 reservation" value="9">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-10">
+        <div class="col-md-1 hour">
+          10AM:
+        </div>
+        <textarea class="col-md-10 reservation" value="10">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-11">
+        <div class="col-md-1 hour">
+          11AM:
+        </div>
+        <textarea class="col-md-10 reservation" value="11">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-11">
+        <div class="col-md-1 hour">
+          11AM:
+        </div>
+        <textarea class="col-md-10 reservation" value="11">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-12">
+        <div class="col-md-1 hour">
+          12PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="12">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-1">
+        <div class="col-md-1 hour">
+          1PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="13">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-2">
+        <div class="col-md-1 hour">
+          2PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="14">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-3">
+        <div class="col-md-1 hour">
+          3PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="15">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-4">
+        <div class="col-md-1 hour">
+          4PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="16">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
+      <div class="row timeblock" id="time-5">
+        <div class="col-md-1 hour">
+        5PM:
+        </div>
+        <textarea class="col-md-10 reservation" value="17">
+
+        </textarea>
+        <button class="col-md-1 btn btn-info saveBtn fa-save">
+
+        </button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
