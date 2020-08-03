@@ -104,15 +104,20 @@ $(document).ready(function(){
         $(".timeblock").each(function(){
             var time = parseInt($(this).attr("id").split("-")[1]);
             if(time < currentTime){
-                $(this).addClass("past");
+                $(this).attr("class", "past");
+                $(".hour").attr("class", "past");
             }
             else if(time === currentTime){
                 $(this).removeClass("past");
-                $(this).addClass("present");
+                $(this).attr("class", "present");
+                $(".hour").removeClass("past");
+                $(".hour").attr("class", "present");
             }
             else{
                 $(this).removeClass("past", "present");
-                $(this).addClass("future");
+                $(".hour").removeClass("past", "present");
+                $(this).attr("class", "future");
+                $(".hour").attr("class", "future");
             }
         });
     }
