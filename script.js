@@ -91,14 +91,15 @@ $(document).ready(function(){
     $("#time-10 .textSiblings").val(localStorage.getItem("time-10"));
     $("#time-11 .textSiblings").val(localStorage.getItem("time-11"));
     $("#time-12 .textSiblings").val(localStorage.getItem("time-12"));
-    $("#time-1 .textSiblings").val(localStorage.getItem("time-1"));
-    $("#time-2 .textSiblings").val(localStorage.getItem("time-2"));
-    $("#time-3 .textSiblings").val(localStorage.getItem("time-3"));
-    $("#time-4 .textSiblings").val(localStorage.getItem("time-4"));
-    $("#time-5 .textSiblings").val(localStorage.getItem("time-5"));
+    $("#time-13 .textSiblings").val(localStorage.getItem("time-13"));
+    $("#time-14 .textSiblings").val(localStorage.getItem("time-14"));
+    $("#time-15 .textSiblings").val(localStorage.getItem("time-15"));
+    $("#time-16 .textSiblings").val(localStorage.getItem("time-16"));
+    $("#time-17 .textSiblings").val(localStorage.getItem("time-17"));
 
     //variables and functions to change color based off of time
     var currentTime = new Date().getHours();
+    console.log(currentTime);
 
     function checkTime(){
         $(".timeblock").each(function(){
