@@ -99,6 +99,7 @@ $(document).ready(function(){
 
     //variables and functions to change color based off of time
     var currentTime = new Date().getHours();
+
     console.log(currentTime);
 
     function checkTime(){

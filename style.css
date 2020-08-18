@@ -10,6 +10,7 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  border-right: 1px solid black;
   padding: 10px;
 }
 
@@ -57,8 +58,10 @@ textarea{
 
 .saveBtn {
   padding: 0px;
-  background-color: #06AED5;
-  color: white;
+  margin: 0px;
+  /* background-color: #06AED5; */
+  color: black;
+  /* border: 1px solid black; */
 }
 
 .saveBtn i:hover {
