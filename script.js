@@ -108,19 +108,12 @@ $(document).ready(function(){
             console.log(time);
             if(time < currentTime){
                 $(this).addClass("past");
-                // $(".hour").attr("class", "past");
             }
             else if(time === currentTime){
-                // $(this).removeClass("past");
                 $(this).addClass("present");
-                // $(".hour").removeClass("past");
-                // $(".hour").attr("class", "present");
             }
             else if(time > currentTime){
-                // $(this).removeClass("past", "present");
                 $(this).addClass("future");
-                // $(".hour").removeClass("past", "present");
-                // $(".hour").attr("class", "future");
             }
         });
     }
